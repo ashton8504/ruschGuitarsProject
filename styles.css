@@ -1,0 +1,40 @@
+/* Styles for entire page */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+
+@font-face {
+  font-family: vintageFont;
+  src: url(vintage.ttf);
+}
+
+/* Header Section */
+
+.headerSection{
+  background-color: red;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 45px;
+  padding-top: 20px;
+  background-color: red;
+}
+
+h1 {
+  text-align: center;
+  font-family: vintageFont,sans-serif;
+}
