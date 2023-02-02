@@ -15,7 +15,7 @@ body {
 
 @font-face {
   font-family: vintageFont;
-  src: url(vintage.ttf);
+  src: url(./customFonts/vintage.ttf);
 }
 
 /* Header Section */
