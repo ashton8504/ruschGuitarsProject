@@ -11,21 +11,23 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
+  background: #090808;
 }
 
 
 
 @font-face {
-  font-family: vintageFont;
+  font-family: vintage;
   src: url(./customFonts/vintage.ttf);
+  font-family: vintageOne;
+  src: url(./customFonts/VintageOne.ttf);
 }
 
 /* Header Section */
 
 .headerSection{
   background-image: linear-gradient(#0f0c29, #302b63, #24243e);
+ 
 }
 
 .logo{
@@ -39,7 +41,7 @@ body {
 
 h1 {
   text-align: center;
-  font-family: vintageFont,sans-serif;
+  font-family: vintageFont;
   color: whitesmoke;
 }
 
@@ -50,6 +52,23 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+  border-radius: 45px;
+  padding-top: 20px;
+}
+
+/* Footer Section  */
+
+.section-title, .cta-btn, .cta-btn--resume{
+  color: whitesmoke;
+  font-family:  vintageFont;
+  text-align: none;
+}
+
+.ruschGuitar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
   border-radius: 45px;
   padding-top: 20px;
 }
